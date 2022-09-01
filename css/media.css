@@ -1,0 +1,254 @@
+/* 1366 768 375 */
+
+
+@media only screen and (max-width: 768px){
+    #hero{
+        background-image: url('../img/tablet-hero-index-bg.png');
+    }
+    .hero-main{
+        margin-top: 20px;
+    }
+    .hero-main *{
+        text-align: center;
+    }
+    .hero-main__text{
+        position: relative;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        top: 50%;
+        transform: translate(0,0);
+    }
+    .hero-main__text::before{
+        content: ' ';
+        position: absolute;
+        top: -60px;
+        left: 0px;
+        display: none;
+    }
+
+
+
+
+    /* Opportunities */
+    #opportunities{
+        height: 710px;
+        background-image: url('../img/two_section-bg-index-tablet.png');
+    }
+
+
+    /* Comments  */
+    #comments{
+        height: 1199px;
+        background-image: url('../img/three_section-bg-index-tablet.png');
+    }
+
+
+    /* Started */
+    #started{
+        height: 200px;
+        background-image: url('../img/four_section-bg-index-tablet.png');
+    }
+
+
+
+    .started__title p{
+        margin-top: 82px;
+        line-height: 32px;
+        /* text-align: center; */
+        font-size: 32px; 
+    }
+    .started__link a{
+        width: 132px;
+        margin-top: 70px;
+        margin-left: 80px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 375px){
+    #hero{
+        background-image: url('../img/mobile-index-hero-bg.png');
+        height: 567px;
+    }
+    .hero-main *{
+        text-align: center;
+    }
+    .hero-main__title{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .hero-main__text{
+        font-size: 15px;
+    }
+    .hero-main__text::before{
+        content: ' ';
+        position: absolute;
+        top: -60px;
+        left: 0px;
+        display: none;
+    }
+
+
+
+    /* Opportunities */
+    #opportunities{
+        height: 1073px;
+        background-image: url('../img/two_section-bg-index-mobile.png');
+    }
+
+
+    /* Comments  */
+    #comments{
+        height: 1410px;
+        background-image: url('../img/three_section-bg-index-mobile.png');
+    }
+
+
+    /* Started */
+    #started{
+        height: 302px;
+        background-image: url('../img/four_section-bg-index-mobile.png');
+    }
+    .started__title p{
+        margin-top: 85px;
+        line-height: 32px;
+        text-align: center;
+        font-size: 32px; 
+    }
+    .started__link a{
+        width: 132px;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px){
+    .nav-header-list {
+        position: absolute;
+        width: 255px;
+        background-image: url('../img/hero-menu-index-bg.png');
+        top: -100%;
+        right: 0;
+        height: 98.4%;
+        z-index: 4;
+        -webkit-box-shadow: -12px 1px 29px -19px rgba(202, 202, 202, 0.527);
+        -moz-box-shadow: -12px 1px 29px -19px rgba(202, 202, 202, 0.527);
+        box-shadow: -12px 1px 29px -19px rgba(202, 202, 202, 0.527);
+        transition: .4s all ease-in-out;
+    }
+    .nav{
+        margin-left: 25px;
+        margin-top: 100px;
+    }
+    
+    .nav ul li{
+        line-height: 45px;
+        margin: 0;
+        display: block;
+    }
+    .nav ul li a{
+        line-height: 0;
+    }
+    .nav-bar .btn-menu{
+        position: absolute;
+        left: 155px; 
+        top: -140%;
+        /* top: 40%; */
+        transition: .4s all ease-in-out;
+        z-index: 6;
+    }
+
+
+
+    #open-menu{
+        display: block;
+        position: absolute;
+        right: 65px;
+        top: 32px;
+        width: 20px;
+        height: 17px;
+    }
+    #close-manu{
+        display: block;
+        position: absolute;
+        right: 25px;
+        top: 32px;
+        width: 20px;
+        height: 17px;
+        z-index: 7;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li,a{
+    list-style: none;
+    text-decoration: none;
+}
+.btn{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: 2px solid #FFFFFF;
+    padding: 10px 20px;
+    transition: all .5s ease-in-out;
+}
+.btn:hover{
+    background-color: #FFFFFF;
+    color: #002529;
+}
+
+.btn-2{
+    color: #012F34;
+    border: 2px solid #012F34;
+    transition: all .5s ease-in-out;
+}
+.btn-2:hover{
+    color: #FFFFFF;
+    background-color: #012F34;
+}

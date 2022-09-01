@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Livvic', sans-serif;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+/* Hero start */
+#hero{
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/hero-index-bg.png');
+    background-size: 100% 100%;
+}
+.header{
+    height: 80px;
+    line-height: 80px;
+    /* background-color: cadetblue; */
+}
+.logo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav ul li a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    transition: all .5s ease-in-out;
+}
+.nav ul li a:hover{
+    color: #F67E7E;
+}
+.nav-bar{
+    float: right;
+}
+
+.hero-main{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+.hero-main__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.hero-main__title span{
+    color: #F67E7E;
+}
+.hero-main__text{
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    top: 50%;
+    transform: translate(29%, 150px);
+}
+.hero-main__text::before{
+    content: ' ';
+    position: absolute;
+    top: -60px;
+    left: 0px;
+    width: 50px;
+    height: 3px;
+    background-color: #79C8C7;
+}
+
+#open-menu{
+    display: none;
+}
+#close-manu{
+    display: none;
+}
+
+
+/* Opportunities */
+#opportunities{
+    width: 100%;
+    height: 684px;
+    background-image: url('../img/two_section-bg-index.png');
+    background-size: 100% 100%;
+}
+
+
+/* Comments  */
+#comments{
+    width: 100%;
+    height: 745px;
+    background-image: url('../img/three_section-bg-index.png');
+    background-size: 100% 100%;
+}
+
+
+/* Started */
+#started{
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    background-image: url('../img/four_section-bg-index.png');
+    background-size: 100% 100%;
+}
+.started__title p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #012F34;   
+}
+.started__link a{
+    margin-left: 385px;
+}
