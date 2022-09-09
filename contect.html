@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+
+    <!-- <link rel="stylesheet" href="css/column.css"> -->
+    <link rel="stylesheet" href="css/col-responsive/col.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header header-contact__html">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-2 col-lg-1">
+                    <span class="logo">myteam</span>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-3 nav-header-list">
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <img src="img/close-manu.png" alt="close-manu" id="close-manu" onclick="noMenu()">
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 nav-bar">
+                    <a href="contect.html" class="btn btn-menu btn-defect">contact us</a>
+                </div>
+                <img src="img/open-manu.png" alt="open-manu" id="open-menu" onclick="changeMenu()">
+            </div>
+        </div>
+    </header>
+
+
+    <script>
+
+        const menuBar = document.querySelector(".nav-header-list")
+        const btnMenu = document.querySelector(".btn-menu")
+
+        function changeMenu() {
+            menuBar.style.top = "0%";
+            btnMenu.style.top = "40%";
+        }
+        
+        function noMenu() {
+            menuBar.style.top = "-100%";
+            btnMenu.style.top = "-140%";
+        }
+    </script>
+</body>

@@ -27,6 +27,11 @@ body{
     line-height: 80px;
     /* background-color: cadetblue; */
 }
+
+.header-contact__html{
+    background-color: #012F34;
+}
+
 .logo{
     font-style: normal;
     font-weight: 700;
